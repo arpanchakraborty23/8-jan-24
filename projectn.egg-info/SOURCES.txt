@@ -1,0 +1,15 @@
+setup.py
+projectn.egg-info/PKG-INFO
+projectn.egg-info/SOURCES.txt
+projectn.egg-info/dependency_links.txt
+projectn.egg-info/requires.txt
+projectn.egg-info/top_level.txt
+src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
+src/components/__init__.py
+src/components/data_ingestion.py
+src/components/data_transformation.py
+src/components/model_train.py
+src/pipelines/__init__.py

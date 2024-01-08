@@ -1,0 +1,13 @@
+prefix=/home/ac/Desktop/online_transactions/env
+exec_prefix=/home/ac/Desktop/online_transactions/env
+libdir=/home/ac/Desktop/online_transactions/env/lib
+sharedlibdir=/home/ac/Desktop/online_transactions/env/lib
+includedir=/home/ac/Desktop/online_transactions/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

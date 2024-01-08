@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/ac/Desktop/online_transactions/env
+exec_prefix=/home/ac/Desktop/online_transactions/env
+libdir=/home/ac/Desktop/online_transactions/env/lib
+includedir=/home/ac/Desktop/online_transactions/env/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.5
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
